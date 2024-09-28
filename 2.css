@@ -1,0 +1,144 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4faff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #004080;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #004080;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-buttons .login-btn {
+    background-color: #fff;
+}
+
+.auth-buttons .register-btn {
+    background-color: #004080;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.auth-buttons button:hover {
+    background-color: #003366;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #e6f0ff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #004080;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    background-color: #003366;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+    max-width: 30%;
+}
+
+.feature img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    color: #004080;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
